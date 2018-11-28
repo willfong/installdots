@@ -23,6 +23,14 @@ curl installdots.sh/<GitHub Username> | sh
 - An `install.sh` shell script in your `dotfiles` repo
 
 
+## Extensions
+
+Third party shortcuts to help install tooling
+
+- `/choco` - Windows - https://chocolatey.org/install
+- `/brew` - MacOS - https://brew.sh/
+
+
 ## Contributions
 
 Welcomed!
