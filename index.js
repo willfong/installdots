@@ -10,6 +10,9 @@ express()
   .get('/choco', (req, res) => {
     res.render('pages/choco');
   })
+  .get('/brew', (req, res) => {
+    res.render('pages/brew');
+  })
   .get('/:username', (req, res) => {
     let {username} = req.params;
     res.render('pages/shellscript', { username });
