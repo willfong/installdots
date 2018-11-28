@@ -7,6 +7,9 @@ express()
   .set('views', path.join(__dirname, 'views'))
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.redirect('https://github.com/willfong/installdots'))
+  .get('/choco', (req, res) => {
+    res.render('pages/choco');
+  })
   .get('/:username', (req, res) => {
     let {username} = req.params;
     res.render('pages/shellscript', { username });
